@@ -17,12 +17,12 @@ export default {
   name: 'app',
   components: {
     Display,
-    OptionList
+    OptionList,
   },
   computed: mapState({
     sizes: state => state.sizes,
-    chosenSize: state => state.chosenSize
-  })
+    chosenSize: state => state.chosenSize,
+  }),
 };
 </script>
 

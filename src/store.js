@@ -31,7 +31,7 @@ export default new Vuex.Store({
   },
   mutations: {
     choseSize(state, size) {
-      state.chosenSize = size;
+      state.chosenSize = size; // eslint-disable-line
     },
   },
 });

@@ -17,12 +17,12 @@ export default {
   props: ['sizes'],
   methods: {
     ...mapMutations([
-      'choseSize'
-    ])
+      'choseSize',
+    ]),
   },
   created() {
     this.choseSize(this.sizes[0]);
-  }
+  },
 };
 </script>
 
